@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+    line-height: 1.1;
+    background-color: #242424;
+    color: white;
+}
+
+h1 { font-size: 3.1rem; font-weight: 800; }  
+h2 { font-size: 2.7rem; }  
+h3 { font-size: 2.3rem; }  
+h4 { font-size: 1.8rem; }  
+h5 { font-size: 1.4rem; }  
+h6 { font-size: 1rem; }
+
+p {  
+	margin: 1.5rem 0; 
+	font-size: 1rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #242424;
+    padding: 3rem;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    padding: 1rem;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0));
+}
+
+.navig {
+    text-align: right;
+}
+
+.navig li {
+    display: inline-block;
+}
+
+.navig li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.navig li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.navig li a:hover {
+    color: orange;
+}
+
+/* index */
+
+.index_hlslider {
+    position: relative;
+    height: 100vh;
+}
+
+.index_slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.index_pozadie {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+.index_overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.index_popis {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 0;
+    width: 100%;
+}
+
+.index_popis h2 {
+    font-weight: 800;
+}
+
+.index_popis p {
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.orange {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.index_popis a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    background-color: orange;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.index_popis a:hover i, .index_popis a:hover .text {
+    opacity: 1;
+    transform: none;
+}
+
+span.text {
+    display: inline-block;
+    transform: translateX(0.8rem);
+    transition: all 0.3s;
+}
+
+.index_popis i {
+    transform: translateX(-0.8rem);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+/* hore */
+.hore {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hore a {
+    color: orange;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 0.2rem solid orange;
+    transition: all 0.5s;
+}
+
+.hore i {
+    transition: all 0.5s;
+}
+
+.hore a:hover {
+    background-color: orange;
+}
+
+.hore a:hover i {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* footer */
+footer {
+    padding: 5rem;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.ikonky a {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: orange;
+    border: 0.2rem solid orange;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 0 0.2rem;
+    transition: all 0.5s;
+    box-sizing: content-box;
+}
+
+.ikonky i {
+    transition: all 0.5s;
+}
+
+.ikonky a:hover {
+    background-color: orange;
+}
+
+.ikonky a:hover i {
+    color: white;
+    transform: rotateY(360deg);
+}
+
+/* o mne */
+
+.ja p {
+    text-align: justify;
+}
+
+.ja li {
+    list-style-type: circle;
+}
+
+/* zivotopis */
+
+.profpic img {
+    height: 300px;
+    width: auto;
+    float: left;
+}
+
+.popis {
+    text-align: right;
+}
+
+.popis h2 {
+    margin-bottom: 1rem;
+}
+
+.popis a {
+    text-decoration: none;
+    color: white;
+}
+
+.omne p {
+    text-align: justify;
+}
+
+.vzdelanie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.vzdelanie_right {
+    text-align: right;
+}
+
+.vzdelanie_right a {
+    text-decoration: none;
+    color: white;
+}
+
+.strong1 {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.strong2 {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.strong3 {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.praca {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.praca_vpravo {
+    text-align: right;
+}
+
+.znalosti {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.znalosti h5 {
+    text-decoration: underline;
+}
+
+.znalosti_stred {
+    text-align: center;
+}
+
+.znalosti_right {
+    text-align: right;
+}
+
+.certifikaty a {
+    text-decoration: none;
+    color: white;
+}
+
+.projekty a {
+    color: white;
+}

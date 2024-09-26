@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja web stránka</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <!-- header -->
+    <header>
+        <nav class="navig">
+            <ul>
+                <li>
+                    <a href="#body">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        domov
+                    </a>
+                </li>
+                <li>
+                    <a href="#ja">
+                        <i class="fa-solid fa-user-tie"></i>
+                        o mne
+                    </a>
+                </li>
+                <li>
+                    <a href="#zivotopis">
+                        <i class="fa-solid fa-file"></i>
+                        životopis
+                    </a>
+                </li>
+                <li>
+                    <a href="#projekty">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        portfolio
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- slider -->
+    <div class="index_hlslider">
+        <div class="index_slide index_overlay">
+            <div class="index_pozadie" style="background-image: url(bgn.jpg);">
+                <div class="index_popis">
+                    <h2>Vitajte na mojej <span class="orange">web stránke</span></h2>
+                    <p>Zámerom je odprezentovať moje zručnosti</p>
+                    <a href="#zivotopis">
+                        <span class="text">životopis</span>
+                        <i class="fa-solid fa-hand-spock"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- o mne -->
+    <div id="ja" class="ja container">
+        <h3>O mne</h3>
+        <hr>
+        <p>
+            Počas môjho štúdia na Technickej univerzite v Košiciach, 
+            ktoré bolo zamerané najmä na automatizáciu, riadenie 
+            a optimalizáciu procesov, som sa stretol s rôznymi projektami a zadaniami, 
+            v ktorých boli využívané prvky HTML, PHP, CSS, Java, Pascal či MySQL, 
+            no ovládam aj MATLAB, či MS Office a jeho súčasti. 
+            Podstatnú časť štúdia som venoval taktiež softvérovému prvku pre automatizáciu - B&R Automation Studio, 
+            vďaka ktorému som nadobudol skúsenosti s prácou s PLC automatmi a zapojil 
+            som sa do rôznych projektov, ktoré si vyžadovali plnú automatizáciu, či už 
+            simulačného modelu, alebo reálnych objektov v praxi, ako napríklad funkčnosť 
+            výrobnej prevádzky. Taktiež sa venujem programovaniu v prostredí Delphi, oblasti 
+            objektového programovania a tvorbe web stránok v rámci školských či semestrálnych 
+            projektov a vo svojom voľnom čase tieto zručnosti rád zdokonaľujem. Časť môjho štúdia 
+            bola zameraná taktiež na projektové riadenie, kde som nadobudol skúsenosti s rôznymi 
+            agilnými metódami.
+        </p>
+        <p>
+            Po úspešnom absolvovaní inžinierskeho štúdia som si urobil online kurz web developera,
+            od spoločnosti SmartyAcademy, vďaka ktorému som zdokonalil a zároveň získal ďalšie
+            poznatky z oblasti programovania webových stránok. Kurz trval 8 týždňov s celkovým časom
+            vyučovania - 76 hodín. Súčasťou kurzu bolo 64 testov a viac ako 30 zadaní.
+            Po ukončení kurzu som získal certifikát v Slovenskom ale aj Anglickom jazyku.
+        </p>
+        <p>
+            Cieľom kurzu bolo naučiť sa: 
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>javaScript</li>
+                <li>jQuery</li>
+                <li>Sass</li>
+                <li>React</li>
+            </ul>
+        </p>
+    </div>
+
+    <!-- zivotopis -->
+    <div id="zivotopis" class="zivotopis"></div>
+        <div class="container">
+            <h3>Životopis</h3><hr>
+            <div class="profpic">
+                <img src="prof_pic.png" alt="profilovka">
+            </div>
+
+            <div class="popis">
+                <h1>Ing. Marek Bajús</h1>
+                <h2>Web Developer</h2>
+                <p>
+                    <a href="mailto:bajus.marek@gmail.com">
+                        <i class="fa-regular fa-envelope"></i>
+                        bajus.marek@gmail.com
+                    </a>
+                </p>
+                <p>
+                    <a href="tel:+421950425402">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        +421 950 425 402
+                    </a>
+                </p>
+                <p>
+                    <a href="https://github.com/marekbajus" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+                </p>
+                <p>
+                    <a href="https://www.linkedin.com/in/marek-baj%C3%BAs-9539522a1/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </p>
+                <p>
+                    <a href="https://maps.app.goo.gl/zDUwgCKntztijmk17" target="_blank">
+                        <i class="fa-solid fa-house"></i>
+                        Revúca, Slovenská republika
+                    </a>
+                </p>
+            </div>
+
+            <h3>Pracovné skúsenosti</h3><hr>
+            <div class="praca">
+                <div>
+                    <p>
+                        Jún 2018 - Aug 2018
+                    </p>
+                </div>
+
+                <div class="praca_vpravo">
+                    <p>
+                        <span class="strong2">MOSS.sk s.r.o.</span> <br>
+                        Skladník - Brigáda <br>
+                        <span class="strong3">Revúca, Slovenská republika</span> <br>
+                    </p>
+                </div>
+            </div>
+
+            <h3>Certifikáty</h3><hr>
+            <div class="certifikaty">
+                <p>
+                    <a href="#">Smarty Academy - Web Developer (SK) <i class="fa-regular fa-file-pdf"></i> STÁLE PREBIEHA</a>
+                </p>
+                <p>
+                    <a href="#">Smarty Academy - Web Developer (EN) <i class="fa-regular fa-file-pdf"></i> STÁLE PREBIEHA</a>
+                </p>
+            </div>
+
+            <h3 id="projekty">Osobné projekty</h3><hr>
+            <div class="projekty">
+                <p><a href="https://marekbajus.github.io/lmhandmade/" target="_blank">L&M Candles - HTML/CSS</a></p>
+                <p><a href="https://marekbajus.github.io/lmhandmade_bs/" target="_blank">L&M Handmade - Bootstrap</a></p>
+            </div>
+
+            <h3>Znalosti</h3><hr>
+            <div class="znalosti">
+                <div>
+                    <h5>Pokročilý:</h5>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Bootstrap</p>
+                    <p>Pascal</p>
+                    <p>MS Office</p>
+                    <p>MATLAB</p>
+                </div>
+                <div>
+                    <h5>Stredný:</h5>
+                    <p>JavaScript</p>
+                    <p>PHP</p>
+                    <p>SQL</p>
+                    <p>B&R Automation Studio</p>
+                    <p>Blender</p>
+                </div>
+                <div>
+                    <h5>Začiatočník:</h5>
+                    <p>Adobe Photoshop</p>
+                </div>
+            </div>
+
+            <h3>Vzdelanie</h3><hr>
+
+            <div class="vzdelanie">
+                <div>
+                    <p>2022 - 2024</p>
+                </div>
+                <div>
+                    <p class="vzdelanie_right">
+                        <span class="strong1">Fakulta baníctva, ekológie, riadenia a geotechnológií</span> <br>
+                        <span class="strong2"><a href="https://res.tuke.sk/api/programme_detail/21141" target="_blank"><i class="fa-solid fa-magnifying-glass"></i> Riadenie procesov</a></span> <br>
+                        Technická univerzita v Košiciach <br>
+                        <span class="strong3">Košice, Slovenská republika</span>
+                    </p>
+                </div>
+
+                <div>
+                    <p>2019 - 2022</p>
+                </div>
+
+                <div>
+                    <p class="vzdelanie_right">
+                        <span class="strong1">Fakulta baníctva, ekológie, riadenia a geotechnológií</span> <br>
+                        <span class="strong2"><a href="https://res.tuke.sk/api/programme_detail/100710" target="_blank"><i class="fa-solid fa-magnifying-glass"></i> Manažérstvo procesov</a></span> <br>
+                        Technická univerzita v Košiciach <br>
+                        <span class="strong3">Košice, Slovenská republika</span>
+                    </p>
+                </div>
+
+                <div>
+                    <p>2014 - 2018</p>
+                </div>
+
+                <div>
+                    <p class="vzdelanie_right">
+                        <span class="strong1">Gymnázium Martina Kukučína</span> <br>
+                        <span class="strong2">Gymnázium</span> <br>
+                        Štúdium ukončené maturitnou skúškou z matematiky a informatiky <br>
+                        <span class="strong3">Revúca, Slovenská republika</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <h3>Jazyky</h3><hr>
+            <div class="jazyky">
+                <p>Anglický (B2)</p>
+                <p>Španielský (A1)</p>
+            </div>
+
+            <h3>Vodičský preukaz</h3><hr>
+            <div class="vodicak">
+                <p>B</p>
+            </div>
+
+            <h3>Záujmy a koníčky</h3><hr>
+            <div class="konicky">
+                <p>
+                    Medzi moje záľuby patrí bez pochyby šport - najmä futbal, plávanie
+                    a posilňovňa.
+                    Okrem iného sa vo svojom voľnom čase venujem programovaniu
+                    a hlavne vytváraniu a spravovaniu web stránok pre kamarátov a známych.
+                </p>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!-- footer -->
+     <footer>
+        <div class="ikonky">
+            <a href="https://www.facebook.com/marekbajo.bajus/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/bajkoooo/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/marekbajus" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/marek-baj%C3%BAs-9539522a1/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+     </footer>
+
+    <!-- hore -->
+     <div class="hore">
+        <a href="#body">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+     </div>
+
+</body>
+</html>
