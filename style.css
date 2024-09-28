@@ -154,22 +154,22 @@ span.text {
     transition: all 0.3s;
 }
 
-/* hore */
-.hore {
+.hore a {
     position: fixed;
     bottom: 0;
     right: 0;
     margin-right: 1rem;
     margin-bottom: 2rem;
-}
-
-.hore a {
     color: orange;
     text-decoration: none;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     border: 0.2rem solid orange;
     transition: all 0.5s;
+    text-align: center;
+    line-height: 3rem;
+    box-sizing: content-box;
 }
 
 .hore i {
@@ -323,4 +323,73 @@ footer {
 
 .projekty a {
     color: white;
+}
+
+@media all and (max-width: 700px) {
+
+    header {
+        padding: 0;
+        background-color: #242424;
+        position: absolute;
+    }
+
+    .navig ul {
+        padding: 0;
+    }
+
+    .navig li {
+        display: block;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    h1 { font-size: 2.2rem; font-weight: 800; }  
+    h2 { font-size: 2rem; }  
+    h3 { font-size: 1.8rem; }  
+    h4 { font-size: 1.3rem; }  
+    h5 { font-size: 0.9rem; }  
+    h6 { font-size: 0.4rem; }
+
+    .index_popis p {
+        font-size: 1rem;
+    }
+
+    p {  
+        margin: 1.5rem 0; 
+        font-size: 1rem;
+    }
+
+    .profpic {
+        text-align: center;
+    }
+
+    .profpic img {
+        width: 250px;
+        height: auto;
+        float: none;
+        margin-bottom: 1rem;
+    }
+
+    .popis {
+        text-align: center;
+    }
+
+    .popis h1 {
+        font-size: 2rem;
+    }
+
+    .popis h2 {
+        font-size: 1.6rem;
+    }
+
+    .konicky p {
+        text-align: justify;
+    }
+
+    .ikonky a {
+        width: 2.3rem;
+        height: 2.3rem;
+        line-height: 2.3rem;
+        font-size: 1.2rem;
+    }
 }
