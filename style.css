@@ -321,6 +321,10 @@ footer {
     color: white;
 }
 
+.certifikaty span {
+    text-decoration: line-through;
+}
+
 .projekty a {
     color: white;
 }
