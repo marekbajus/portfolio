@@ -280,7 +280,7 @@
     </div>
 
     <!-- footer -->
-     <footer>
+    <footer>
         <div class="ikonky">
             <a href="https://www.facebook.com/marekbajo.bajus/" target="_blank">
                 <i class="fa-brands fa-facebook-f"></i>
@@ -295,14 +295,60 @@
                 <i class="fa-brands fa-linkedin-in"></i>
             </a>
         </div>
-     </footer>
+    </footer>
 
     <!-- hore -->
-     <div class="hore">
+    <div class="hore">
         <a href="#body">
             <i class="fa-solid fa-chevron-up"></i>
         </a>
-     </div>
+    </div>
 
+    <!-- responzivne menu -->
+
+    <div id="resp_menu_otvor" class="resp_menu_otvor">
+        <a href="#">
+            <i class="fa-solid fa-bars"></i>
+            MENU
+        </a>
+    </div>
+
+    <div id="resp_menu" class="resp_menu">
+        <h5>MENU</h5>
+        <hr>
+        <ul>
+            <li>
+                <a href="#body" onclick="zavri_menu_btn()">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    DOMOV
+                </a>
+            </li>
+            <li>
+                <a href="#ja" onclick="zavri_menu_btn()">
+                    <i class="fa-solid fa-user-tie"></i>
+                    O MNE
+                </a>
+            </li>
+            <li>
+                <a href="#zivotopis" onclick="zavri_menu_btn()">
+                    <i class="fa-solid fa-file"></i>
+                    ŽIVOTOPIS
+                </a>
+            </li>
+            <li>
+                <a href="#projekty" onclick="zavri_menu_btn()">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    PORTFOLIO
+                </a>
+            </li>
+        </ul>
+        <div id="resp_menu_zavri" class="resp_menu_zavri">
+            <a href="#">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
