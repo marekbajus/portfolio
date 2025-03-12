@@ -320,15 +320,6 @@ footer {
     text-align: right;
 }
 
-.certifikaty a {
-    text-decoration: none;
-    color: white;
-}
-
-.certifikaty span {
-    text-decoration: line-through;
-}
-
 .projekty a {
     color: white;
 }
